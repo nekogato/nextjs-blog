@@ -35,6 +35,9 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <Link href="/posts/first-post">
+          <a>this page!</a>
+        </Link>
       </section>
     </Layout>
   )
